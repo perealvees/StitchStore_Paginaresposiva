@@ -118,6 +118,9 @@ p{
 
 
 @media (max-width:740px) {
+        button{
+            display: none;
+        }
 
         header{
             background-color: rgb(144, 175, 190);
