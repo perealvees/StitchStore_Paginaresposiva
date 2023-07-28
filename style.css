@@ -153,8 +153,14 @@ p{
         }
 
         .imagemsite img{
-            width: 40vh;
-            height: 35vh;
+            width: 70vh;
+            height: 50vh;
             border-radius: 50px;
+        }
+
+        img{
+            width: 30px;
+            height: 30px;
+            margin: 5px;
         }
     }
