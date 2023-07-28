@@ -130,8 +130,8 @@ p{
         .burger{
             display:list-item;
             background-color: red;
-            height: 30px;
-            width: 30px;
+            height: 45px;
+            width: 45px;
         }
 
         header{
