@@ -77,6 +77,8 @@ button:hover{
 
 .fundo{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .txt{
@@ -124,11 +126,10 @@ p{
         }
 
         .fundo{
-            
+            justify-content: center;
             flex-direction: column;
             align-items:center;
             width: 100%;
-            
         }    
 
         .txt{
