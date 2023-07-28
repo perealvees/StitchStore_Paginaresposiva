@@ -9,7 +9,9 @@
 
 body{
     background-color: rgba(25, 97, 179, 0.822);
-
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 header{
@@ -86,7 +88,7 @@ button:hover{
 .txt{
     align-items: center;
     width: 45%;
-    margin: 70px;
+    margin: 80px;
     padding-top: 50px;
 }
 
@@ -122,16 +124,22 @@ p{
 
 
 
-@media (max-width:740px) {
+@media (max-width:680px) {
         button{
             display: none;
         }
 
         .burger{
-            display:list-item;
+            display:flex;
             background-color: red;
             height: 45px;
             width: 45px;
+        }
+
+        body{
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
         }
 
         header{
@@ -140,7 +148,6 @@ p{
             display: flex;
         }
         ul{
-            transform: translateX(-100%);
             font-size: 30px;
             display: none;
         }
@@ -156,7 +163,8 @@ p{
             width: 80%;
             text-align: center;
             margin: 60px;
-            
+            align-items: center;
+            justify-content: center;
         }
 
         b{
@@ -174,8 +182,8 @@ p{
 
         .imagemsite img{
             margin-top: -30px;
-            width: 60vh;
-            height: 40vh;
+            width: 40vh;
+            height: 20vh;
             
         }
 
